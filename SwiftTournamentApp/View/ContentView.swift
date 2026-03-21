@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftTournamentApp
-//
-//  Created by Wellington Ruan da Silva on 08/01/26.
-//
 
 import SwiftUI
 
