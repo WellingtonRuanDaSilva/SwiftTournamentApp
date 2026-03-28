@@ -12,11 +12,35 @@
 		479018222F0FDA7000B3E2D2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 479018212F0FDA7000B3E2D2 /* FirebaseFirestoreCombine-Community */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		47728E342F784073006FA3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479018062F0FD8C600B3E2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4790180D2F0FD8C600B3E2D2;
+			remoteInfo = SwiftTournamentApp;
+		};
+		47728E482F7841F1006FA3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479018062F0FD8C600B3E2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4790180D2F0FD8C600B3E2D2;
+			remoteInfo = SwiftTournamentApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		47728E302F784073006FA3AB /* SwiftTournamentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTournamentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47728E442F7841F1006FA3AB /* SwiftTournamentAppTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTournamentAppTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4790180E2F0FD8C600B3E2D2 /* SwiftTournamentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTournamentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		47728E452F7841F1006FA3AB /* SwiftTournamentAppTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTournamentAppTest;
+			sourceTree = "<group>";
+		};
 		479018102F0FD8C600B3E2D2 /* SwiftTournamentApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftTournamentApp;
@@ -25,6 +49,20 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		47728E2D2F784073006FA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47728E412F7841F1006FA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4790180B2F0FD8C600B3E2D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				479018102F0FD8C600B3E2D2 /* SwiftTournamentApp */,
+				47728E452F7841F1006FA3AB /* SwiftTournamentAppTest */,
 				4790180F2F0FD8C600B3E2D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				4790180E2F0FD8C600B3E2D2 /* SwiftTournamentApp.app */,
+				47728E302F784073006FA3AB /* SwiftTournamentAppTests.xctest */,
+				47728E442F7841F1006FA3AB /* SwiftTournamentAppTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +98,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		47728E2F2F784073006FA3AB /* SwiftTournamentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47728E382F784073006FA3AB /* Build configuration list for PBXNativeTarget "SwiftTournamentAppTests" */;
+			buildPhases = (
+				47728E2C2F784073006FA3AB /* Sources */,
+				47728E2D2F784073006FA3AB /* Frameworks */,
+				47728E2E2F784073006FA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47728E352F784073006FA3AB /* PBXTargetDependency */,
+			);
+			name = SwiftTournamentAppTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftTournamentAppTests;
+			productReference = 47728E302F784073006FA3AB /* SwiftTournamentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47728E432F7841F1006FA3AB /* SwiftTournamentAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47728E4A2F7841F1006FA3AB /* Build configuration list for PBXNativeTarget "SwiftTournamentAppTest" */;
+			buildPhases = (
+				47728E402F7841F1006FA3AB /* Sources */,
+				47728E412F7841F1006FA3AB /* Frameworks */,
+				47728E422F7841F1006FA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47728E492F7841F1006FA3AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				47728E452F7841F1006FA3AB /* SwiftTournamentAppTest */,
+			);
+			name = SwiftTournamentAppTest;
+			packageProductDependencies = (
+			);
+			productName = SwiftTournamentAppTest;
+			productReference = 47728E442F7841F1006FA3AB /* SwiftTournamentAppTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4790180D2F0FD8C600B3E2D2 /* SwiftTournamentApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 479018192F0FD8C900B3E2D2 /* Build configuration list for PBXNativeTarget "SwiftTournamentApp" */;
@@ -89,9 +173,19 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2620;
+				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					47728E2F2F784073006FA3AB = {
+						CreatedOnToolsVersion = 26.3;
+						LastSwiftMigration = 2630;
+						TestTargetID = 4790180D2F0FD8C600B3E2D2;
+					};
+					47728E432F7841F1006FA3AB = {
+						CreatedOnToolsVersion = 26.3;
+						LastSwiftMigration = 2630;
+						TestTargetID = 4790180D2F0FD8C600B3E2D2;
+					};
 					4790180D2F0FD8C600B3E2D2 = {
 						CreatedOnToolsVersion = 26.2;
 					};
@@ -115,11 +209,27 @@
 			projectRoot = "";
 			targets = (
 				4790180D2F0FD8C600B3E2D2 /* SwiftTournamentApp */,
+				47728E2F2F784073006FA3AB /* SwiftTournamentAppTests */,
+				47728E432F7841F1006FA3AB /* SwiftTournamentAppTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		47728E2E2F784073006FA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47728E422F7841F1006FA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4790180C2F0FD8C600B3E2D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +240,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		47728E2C2F784073006FA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47728E402F7841F1006FA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4790180A2F0FD8C600B3E2D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,7 +263,110 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		47728E352F784073006FA3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4790180D2F0FD8C600B3E2D2 /* SwiftTournamentApp */;
+			targetProxy = 47728E342F784073006FA3AB /* PBXContainerItemProxy */;
+		};
+		47728E492F7841F1006FA3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4790180D2F0FD8C600B3E2D2 /* SwiftTournamentApp */;
+			targetProxy = 47728E482F7841F1006FA3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		47728E362F784073006FA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wellingtonruan.SwiftTournamentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTournamentAppTests/SwiftTournamentAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTournamentApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTournamentApp";
+			};
+			name = Debug;
+		};
+		47728E372F784073006FA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wellingtonruan.SwiftTournamentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTournamentAppTests/SwiftTournamentAppTests-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTournamentApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTournamentApp";
+			};
+			name = Release;
+		};
+		47728E4B2F7841F1006FA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wellingtonruan.SwiftTournamentAppTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTournamentAppTest/SwiftTournamentAppTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTournamentApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTournamentApp";
+			};
+			name = Debug;
+		};
+		47728E4C2F7841F1006FA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wellingtonruan.SwiftTournamentAppTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTournamentAppTest/SwiftTournamentAppTest-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTournamentApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTournamentApp";
+			};
+			name = Release;
+		};
 		479018172F0FD8C900B3E2D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -324,6 +551,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		47728E382F784073006FA3AB /* Build configuration list for PBXNativeTarget "SwiftTournamentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47728E362F784073006FA3AB /* Debug */,
+				47728E372F784073006FA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47728E4A2F7841F1006FA3AB /* Build configuration list for PBXNativeTarget "SwiftTournamentAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47728E4B2F7841F1006FA3AB /* Debug */,
+				47728E4C2F7841F1006FA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		479018092F0FD8C600B3E2D2 /* Build configuration list for PBXProject "SwiftTournamentApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
